@@ -3,7 +3,7 @@ Bem vindo, este projeto serve como uma base de estudo utilizando alguns atributo
 - Do While
 - Switch Case
 - FileWriter
-- Listas
+- ArrayList
 
 
 Tentarei produzir uma Agenda de Contatos intuitava com as seguintes opções:
