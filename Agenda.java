@@ -7,7 +7,7 @@ public class Agenda {
 
        System.out.println("Bem vindo a sua Agenda de contatos."); //Apresentação do Programa
 
-       ArrayList<String> nomes_contatos = new ArrayList<>(); // criação da Lista que será usada para adicionar os contatos.
+       ArrayList<Contato> nomes_contatos = new ArrayList<>(); // criação da Lista que será usada para adicionar os contatos.
        
        Scanner leitor = new Scanner(System.in); // criação do Scanner para leitura da entrada do usuario
 
@@ -22,6 +22,10 @@ public class Agenda {
 
             int opcao_Escolhida = leitor.nextInt();  //variavel para armazenar a opção escolhida pelo usuario
 
+            Switch (opcao_Escolhida) {
+
+                
+            }
         } while ();
 
 
