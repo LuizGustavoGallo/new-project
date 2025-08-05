@@ -19,4 +19,12 @@ public class Contato {
     public String getEmail() { // retorno do email
         return email; 
     }
+    
+    // Setter para edição de contato
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
 }

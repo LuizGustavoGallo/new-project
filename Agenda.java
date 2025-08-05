@@ -15,8 +15,8 @@ public class Agenda {
             // Exibição do menu: 
             System.out.println("Escolha uma das opções: ");
             System.out.println("[1] Adicionar contato: ");
-            System.out.println("[2] Editar contato: ");
-            System.out.println("[3] Encontrar contato:");
+            System.out.println("[2] Mostrar contato salvo: ");
+            System.out.println("[3] Editar contato:");
             System.out.println("[4] Excluir contato: ");
             System.out.println("[5] Sair da Agenda.");
 
@@ -32,9 +32,12 @@ public class Agenda {
                     String email = leitor.nextLine();
                     Funcoes.adicionarContato(nomes_contatos, nome, email);
                     break;
+                
+                case 2: // opção para mostrar os contatos salvos
+                    Funcoes.listarContato(nomes_contatos);
 
                 default:
-                    System.out.println("Opção invalida.");
+                    System.out.println("");
             }
         } while (opcao_Escolhida != 3);
 
